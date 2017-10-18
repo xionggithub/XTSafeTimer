@@ -38,7 +38,10 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'zlib'
+  "license": {
+ +    "type": "MIT",
+ +    "file": "MIT-LICENSE.txt"
+ +  },
 
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
